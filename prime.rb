@@ -5,7 +5,7 @@ def prime?(num)
   else
     new_num = num
   end
-  (1...new_num).each do |factor|
+  (2...new_num).each do |factor|
     if num % factor == 0
       return false
     else
