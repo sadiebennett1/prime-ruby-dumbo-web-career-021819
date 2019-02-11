@@ -3,7 +3,7 @@ def prime?(num)
   if num < 0
     new_num = num * -1
   else
-    new_num = num 
+    new_num = num
   end
   (1...new_num).each do |factor|
     if num % factor == 0
@@ -14,4 +14,3 @@ def prime?(num)
 
   end
 end
-  
