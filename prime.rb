@@ -8,15 +8,13 @@ def prime?(num)
   if new_num == 2
     return true
   end
-  if new_num == 1 || new_num == 0 
+  if new_num == 1 || new_num == 0
     return false
   end
   (2...new_num).each do |factor|
     if new_num % factor == 0
       return false
-    else
-      return true
     end
-
   end
+  return true
 end
