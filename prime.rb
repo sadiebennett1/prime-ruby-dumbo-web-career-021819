@@ -5,9 +5,6 @@ def prime?(num)
   else
     new_num = num
   end
-  if new_num == 2
-    return true
-  end
   if new_num == 1 || new_num == 0
     return false
   end
